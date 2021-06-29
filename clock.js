@@ -1,6 +1,5 @@
-let timeRemaining = 5;
 let timerElement = document.getElementById("timer");
-let timer = setInterval(countdown, 1000);
+let timeRemaining = timerElement.innerText;
 
 function countdown() {
   timeRemaining -= 1;
@@ -10,3 +9,8 @@ function countdown() {
     timerElement.innerText = timeRemaining;
   }
 }
+
+btn1.addEventListener("click", function(){
+  timerElement.classList.add("animated");
+  setInterval(countdown, 1000);
+});

@@ -19,6 +19,15 @@ h1 {
   align-items: center;
 }
 
+button {
+  background-color: red;
+  font: italic small-caps bold 12px/30px Georgia, serif;
+  width: 4rem;
+  height: 4rem;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
 /* The animation code */
 @keyframes rocket {
   /*blast-off*/
@@ -43,10 +52,13 @@ h1 {
   font-size: 10em;
   vertical-align: middle;
   line-height: normal;
+}
+
+.animated {
   /*animation for rocket*/
   position: relative;
   animation-name: rocket;
   animation-duration: 2.5s;
-  animation-delay: 5.2s;
+  animation-delay: 5.1s;
   animation-timing-function: ease-in;
 }
