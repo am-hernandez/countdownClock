@@ -4,7 +4,7 @@ A simple clockdown clock using Javascript.
 
 ## Demo
 
-![Countdown demo in gif format](https://media.giphy.com/media/kADtY0x6x9Y1NVj10B/giphy.gif)/
+![Countdown demo in gif format](https://media.giphy.com/media/kADtY0x6x9Y1NVj10B/giphy.gif)\
 Try it now using the [codepen](https://codepen.io/amh112/pen/bGqXrYB?editors=1111)!
 
 ## Usage
